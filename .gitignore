@@ -1,0 +1,43 @@
+# Original installer and Windows metadata
+Install-L3D.exe
+*.Zone.Identifier
+*:Zone.Identifier
+
+# Extracted proprietary game data and generated image dumps
+extracted/
+textures/
+gfx_png/
+CD_GAME/
+
+# Lemmings 3D binary asset formats (avoid accidental redistribution)
+*.PAL
+TEXTURE.[0-9][0-9][0-9]
+LAND.[0-9][0-9][0-9]
+SKY.[0-9][0-9][0-9]
+BGRD.[0-9][0-9][0-9]
+SEA.[0-9][0-9][0-9]
+OBJ.[0-9][0-9][0-9]
+ANIMOBJ.[0-9][0-9][0-9]
+SIGNS.[0-9][0-9][0-9]
+TRAPS.[0-9][0-9][0-9]
+WALLS.[0-9][0-9][0-9]
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local scratch and packed outputs
+dist/
+output/
+*.bak
+*.tmp
